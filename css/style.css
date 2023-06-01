@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(57, 57, 63);
+    margin: 0;
+    height: 100vh;
+}
+
+header {
+    color: rgb(175, 171, 171);
+}
+
+a {
+    color: rgb(175, 171, 171);;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    padding: 0;
+    font-size: 20px;
+    
+}
+
+li:hover {
+    color: rgb(199, 85, 85);
+}
+
+figure {
+    display: flex;
+    font-size: 35px;
+    margin: 0;
+    padding: 0;
+    padding: 0;
+}
+
+header>section:nth-of-type(1) {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(41, 41, 41);
+    padding: 1% 10%;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    height: 80vh;
+    padding: 0 10%;
+}
+
+main>section {
+    align-self: center;
+}
+
+main>section>p {
+    color: whitesmoke;
+}
+
+main>section>p{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 0.2;
+}
+
+main>section>p:nth-of-type(4) {
+    color: rgb(150, 150, 150);
+    font-size: 25px;
+}
+
+.highlight {
+    color: rgb(199, 85, 85);
+}
+
+
+img {
+    height: 700px;
+    
+}
+
+button {
+    background-color: rgb(57, 57, 63);
+    border: solid rgb(199, 85, 85);
+    border-radius: 8px;
+    color: rgb(199, 85, 85);
+    font-size: 30px;
+    padding: 10px 25px;
+    margin: 50px 0;
+    font-weight: bold;
+}
